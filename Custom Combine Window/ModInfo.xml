@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <Name value="Custom_Combine_Window" />
+	<DisplayName value="Custom Combine Window" />	
+    <Description value="Adds a custom combine window to the workbench with extra features" />
+    <Author value="Zilox" />
+    <Version value="1.0.0" />
+</xml>

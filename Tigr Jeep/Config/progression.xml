@@ -1,0 +1,9 @@
+<Zilox>
+		
+	<append xpath="//crafting_skill[@name='craftingVehicles']/display_entry[@icon='vehicle4x4TruckPlaceable']">
+		<unlock_entry item="vehicleTigrJeepChassis,vehicleTigrJeepAccessories" unlock_tier="1" />		
+	</append>
+	
+	<csv xpath="//crafting_skill[@name='craftingVehicles']/effect_group/passive_effect[@level='70,100']/@tags" delim="," op="add">vehicleTigrJeepChassis,vehicleTigrJeepAccessories</csv>	
+	
+</Zilox>

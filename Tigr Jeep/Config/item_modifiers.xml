@@ -1,0 +1,57 @@
+<configs>
+	<append xpath="/item_modifiers">
+	
+		<item_modifier name="modVehicleWeaponBurstFire" installable_tags="vweapon" modifier_tags="trigger" blocked_tags="noMods" type="attachment">
+			<property name="Extends" value="modGeneralMaster"/>
+			<property name="UnlockedBy" value="modVehicleWeaponBurstFireSchematic"/>			
+			<property name="CustomIcon" value="modGunTriggerGroupBurst"/>
+			<item_property_overrides name="*">
+				<property name="burstRepeat" value="2"/>
+				<property name="burstInterval" value="0.1"/>
+			</item_property_overrides>
+			<item_property_overrides name="vehicletigrjeep_WeaponTurret">
+				<property name="burstRepeat" value="3"/>
+				<property name="burstInterval" value="0.04"/>
+			</item_property_overrides>
+		</item_modifier>
+		
+		<item_modifier name="modVehicleWeaponFullAuto" installable_tags="vweapon" modifier_tags="trigger" blocked_tags="noMods" type="attachment">
+			<property name="Extends" value="modGeneralMaster"/>
+			<property name="UnlockedBy" value="modVehicleWeaponFullAutoSchematic"/>
+			<property name="CustomIcon" value="modGunTriggerGroupAutomatic"/>
+			<item_property_overrides name="*">
+				<property name="burstInterval" value="0"/>
+				<property name="burstRepeat" value="1"/>
+			</item_property_overrides>
+			<item_property_overrides name="vehicletigrjeep_WeaponTurret">
+				<property name="burstInterval" value="0"/>
+				<property name="burstRepeat" value="10"/>
+			</item_property_overrides>
+		</item_modifier>
+		
+		<item_modifier name="modVehicleWeaponFireDamage" installable_tags="vweapon" modifier_tags="ammo" blocked_tags="noMods" type="attachment">
+			<property name="Extends" value="modGeneralMaster"/>
+			<property name="CustomIcon" value="modVehicleWeaponFireDamage"/>			
+			<property name="UnlockedBy" value="modVehicleWeaponFireDamageSchematic"/>
+			<item_property_overrides name="*">
+				<property name="buffAppend" value=""/>
+			</item_property_overrides>
+			<item_property_overrides name="vehicletigrjeep_WeaponTurret">
+				<property name="buffAppend" value="buffBurningFlamingArrow"/>
+			</item_property_overrides>
+		</item_modifier>
+
+		<item_modifier name="modVehicleWeaponShockDamage" installable_tags="vweapon" modifier_tags="ammo" blocked_tags="noMods" type="attachment">
+			<property name="Extends" value="modGeneralMaster"/>
+			<property name="CustomIcon" value="modVehicleWeaponShockDamage"/>			
+			<property name="UnlockedBy" value="modVehicleWeaponShockDamageSchematic"/>
+			<item_property_overrides name="*">
+				<property name="buffAppend" value=""/>
+			</item_property_overrides>
+			<item_property_overrides name="vehicletigrjeep_WeaponTurret">
+				<property name="buffAppend" value="buffShocked"/>
+			</item_property_overrides>
+		</item_modifier>	
+		
+	</append>
+</configs>

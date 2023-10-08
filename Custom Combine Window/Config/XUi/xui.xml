@@ -1,0 +1,6 @@
+<Config>
+
+<append xpath="//window_group[@name='workstation_workbench']">
+	<window name="windowCombine" /> 
+</append>
+</Config>

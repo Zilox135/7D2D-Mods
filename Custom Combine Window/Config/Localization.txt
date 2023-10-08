@@ -1,0 +1,4 @@
+Key,english
+
+ttCombineMods,You can't combine items if they have mods installed.
+ttCombineMax,This workstation can only combine items up to quality {0}.

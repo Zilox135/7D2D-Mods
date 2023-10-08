@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<Name value="Main_Menu_Music" />
+	<DisplayName value="Main Menu Music" />		
+	<Description value="Allows for custom main menu music, either one clip or multiple and one picked at random" />
+	<Author value="Zilox" />
+	<Version value="1.0.0" />
+</xml>

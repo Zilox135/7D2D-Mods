@@ -1,0 +1,9 @@
+<Zilox>
+		
+	<append xpath="//crafting_skill[@name='craftingVehicles']/display_entry[@icon='vehicleGyrocopterPlaceable']">
+		<unlock_entry item="vehicleApacheHelicopterChassis,vehicleApacheHelicopterAccessories,ammoMissile" unlock_tier="1" />		
+	</append>
+	
+	<csv xpath="//crafting_skill[@name='craftingVehicles']/effect_group/passive_effect[@level='100,100']/@tags" delim="," op="add">vehicleApacheHelicopterChassis,vehicleApacheHelicopterAccessories,ammoMissile</csv>	
+	
+</Zilox>
