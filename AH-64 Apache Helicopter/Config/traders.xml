@@ -1,9 +1,0 @@
-<Zilox>
-
-<append xpath="//trader_item_group[@name='groupVehicles']">
-	<item name="vehicleApacheHelicopterChassis"/>
-	<item name="vehicleApacheHelicopterAccessories"/>
-	<item name="vehicleApacheHelicopterPlaceable"/>
-</append>
-
-</Zilox>

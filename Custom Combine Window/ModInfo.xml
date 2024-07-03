@@ -4,5 +4,5 @@
 	<DisplayName value="Custom Combine Window" />	
     <Description value="Adds a custom combine window to the workbench with extra features" />
     <Author value="Zilox" />
-    <Version value="1.0.1" />
+    <Version value="1.0.2" />
 </xml>
