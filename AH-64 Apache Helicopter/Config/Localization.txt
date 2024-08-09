@@ -1,0 +1,10 @@
+Key,english
+
+vehicleApacheHelicopter,AH-64 Apache Helicopter
+vehicleApacheHelicopterPlaceable,AH-64 Apache Helicopter
+vehicleApacheHelicopterChassis,AH-64 Apache Helicopter Chassis
+vehicleApacheHelicopterAccessories,AH-64 Apache Helicopter Accessories
+questRewardHelicopterPartsBundle,AH-64 Apache Helicopter Parts Bundle
+ammoMissile,Helicopter Missile (Ammo)
+ammoMissileDesc,A missile rocket used as ammunition for the Apache Helicopter. Press G to shoot or use the number keys to shoot each weapon individually while you are inside the Apache Helicopter and the missiles are in your inventory. \nCrafts in stacks of 5.
+vehiclesT5,"Tier 5: Gyrocopter, AH-64 Apache Helicopter & Helicopter Missiles"

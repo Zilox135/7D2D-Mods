@@ -1,0 +1,16 @@
+<Zilox>
+
+<append xpath="//trader_item_group[@name='groupVehicles']">
+	<item name="vehicleTigerJeepChassis"/>
+	<item name="vehicleTigerJeepAccessories"/>
+	<item name="vehicleTigerJeepPlaceable"/>
+</append>
+
+<append xpath="//trader_item_group[@name='schematicsVehiclesMods']">
+	<item name="modVehicleWeaponBurstFireSchematic"/>
+	<item name="modVehicleWeaponFullAutoSchematic"/>
+	<item name="modVehicleWeaponFireDamageSchematic"/>
+	<item name="modVehicleWeaponShockDamageSchematic"/>	
+</append>
+
+</Zilox>

@@ -1,0 +1,20 @@
+Key,english
+
+vehicleTigerJeep,Tiger Jeep
+vehicleTigerJeepPlaceable,Tiger Jeep
+vehicleTigerJeepChassis,Tiger Jeep Chassis
+vehicleTigerJeepAccessories,Tiger Jeep Turret
+modVehicleWeaponBurstFire,Vehicle Burst Fire Mod
+modVehicleWeaponFullAuto,Vehicle Full Auto Mod
+modVehicleWeaponFireDamage,Vehicle Incendiary Ammo Mod
+modVehicleWeaponShockDamage,Vehicle Shock Ammo Mod
+modVehicleWeaponBurstFireSchematic,Vehicle Burst Fire Mod Schematic
+modVehicleWeaponFullAutoSchematic,Vehicle Full Auto Mod Schematic
+modVehicleWeaponFireDamageSchematic,Vehicle Incendiary Ammo Mod Schematic
+modVehicleWeaponShockDamageSchematic,Vehicle Shock Ammo Mod Schematic
+modVehicleWeaponBurstFireDesc,This mod enables burst fire for the tiger jeep.
+modVehicleWeaponFullAutoDesc,This mod enables full auto fire for the tiger jeep.
+modVehicleWeaponFireDamageDesc,This mod enables ammo to do fire damage for the tiger jeep.
+modVehicleWeaponShockDamageDesc,This mod enables ammo to do shock damage for the tiger jeep.
+questRewardTigerJeepPartsBundle,Tiger Jeep Parts Bundle
+vehiclesT4,Tier 4: 4x4 & Tiger Jeep

@@ -1,0 +1,43 @@
+<Zilox>
+
+<insertAfter xpath="//lootgroup[@name='empty']">
+<!-- *** Tiger_Jeep_Parts -->
+<lootgroup name="TigerJeepParts">
+	<item name="vehicleTigerJeepChassis"/>
+	<item name="vehicleTigerJeepAccessories"/>
+	<item name="vehicleWheels"/>
+	<item name="smallEngine"/>
+	<item name="carBattery"/>
+</lootgroup>
+
+<lootgroup name="groupQuestTigerJeepParts" count="all">
+	<item name="questRewardTigerJeepPartsBundle"/>
+</lootgroup>
+</insertAfter>
+
+<append xpath="//lootgroup[@name='vehiclePartsTiered']">
+	<item group="TigerJeepParts" loot_prob_template="ProbT3"/>
+</append>
+
+<append xpath="//lootgroup[@name='vehicleModSchematics03']">
+	<item name="modVehicleWeaponBurstFireSchematic"/>
+	<item name="modVehicleWeaponFullAutoSchematic"/>
+	<item name="modVehicleWeaponFireDamageSchematic"/>
+	<item name="modVehicleWeaponShockDamageSchematic"/>		
+</append>
+
+<append xpath="//lootgroup[@name='vehicleMods']">
+	<item name="modVehicleWeaponBurstFire" loot_prob_template="ProbT2Cap"/>
+	<item name="modVehicleWeaponFullAuto" loot_prob_template="ProbT3"/>
+	<item name="modVehicleWeaponFireDamage" loot_prob_template="ProbT3"/>
+	<item name="modVehicleWeaponShockDamage" loot_prob_template="ProbT3"/>	
+</append>
+
+<append xpath="/lootcontainers">
+
+<!-- vehicleTigerJeep storage -->
+<lootcontainer name="vehicleTigerJeep" count="0" size="9,10" sound_open="UseActions/vehicle_storage_open" open_time="0" sound_close="UseActions/vehicle_storage_close" loot_quality_template="qualBaseTemplate">
+</lootcontainer>
+
+</append>
+</Zilox>
