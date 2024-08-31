@@ -16,14 +16,13 @@
 		<property name="upAngleMax" value="60"/>
 		<property name="upForce" value=".5"/>
 		
-		<property name="motorTorque" value="1, 1"/>
-		<property name="turboScale" value="1.67, 1"/>		
-		<property name="velocityMax" value="27, 27"/>
+		<property name="motorTorque_turbo" value="1, 1, 2, 2"/>
+		<property name="velocityMax_turbo" value="20, 9, 25, 9"/>
 		<property name="brakeTorque" value="10"/>
 		<property name="unstickForce" value="1"/>		
 		<property name="airDrag_velScale_angVelScale" value=".997, .97"/>
 		<property name="waterDrag_y_velScale_velMaxScale" value="1.5, .9, 1"/>
-		<property name="waterLift_y_depth_force" value="1, .5, .1"/>
+		<property name="waterLift_y_depth_force" value="1, .5, .1"/>		
 
 		<property name="hornSound" value="gyrocopter_horn"/>
 
